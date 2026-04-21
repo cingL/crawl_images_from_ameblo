@@ -2,15 +2,15 @@ import datetime
 
 # Ameblo entry-list page to crawl.
 # Example: "https://ameblo.jp/marysteatime/entrylist.html"
-URL = "https://ameblo.jp/marysteatime/entrylist.html"
+URL = "https://ameblo.jp/takeru-naya-we/entrylist.htmll"
 
 # Base name for the exported link list file.
 # Runtime output file name is generated as:
 #   [base_name_without_ext]_[yyyyMMddHHmmss].txt
 # Example:
-#   blog_link_txt_name = "1.txt"
-#   output file         = "1_20260421172400.txt"
-blog_link_txt_name = '1.txt'
+#   blog_link_txt_name = "blog_link_190113.txt"
+#   output file         = "blog_link_190113_20260421172400.txt"
+blog_link_txt_name = 'blog_link_190113.txt'
 
 # Crawl cutoff date.
 # Only entries with publish date > latest_date are kept.

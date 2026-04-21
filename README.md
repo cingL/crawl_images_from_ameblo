@@ -40,5 +40,6 @@ This project crawls Ameblo entry links first, then downloads entry images.
 
 ## ameblo_zaiki (legacy)
 
-This folder keeps the older crawler scripts.
-Update `ameblo_zaiki/param.py` before running.
+> **Note:** This folder is kept for historical reference only. It **no longer matches the current Ameblo page structure**—**do not run it**. Use [ameblo_naya (active)](#ameblo_naya-active) above instead.
+
+This folder contains the older crawler scripts (unmaintained for current site markup).
